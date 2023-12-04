@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:11
 RUN mkdir /app
 WORKDIR /app
 ADD target/*.jar ./app.jar
